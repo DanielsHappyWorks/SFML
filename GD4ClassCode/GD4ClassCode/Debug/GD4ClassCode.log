@@ -1,3 +1,48 @@
-﻿  main.cpp
-  GD4ClassCode.vcxproj -> X:\Users\Dkill\Documents\Visual Studio 2017\Projects\SFML\GD4ClassCode\Debug\GD4ClassCode.exe
-  GD4ClassCode.vcxproj -> X:\Users\Dkill\Documents\Visual Studio 2017\Projects\SFML\GD4ClassCode\Debug\GD4ClassCode.pdb (Partial PDB)
+﻿  SceneNode.cpp
+  Entity.cpp
+x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\entity.hpp(6): error C2653: 'sf': is not a class or namespace name
+x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\entity.hpp(6): error C3646: 'mVelocity': unknown override specifier
+x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\entity.hpp(6): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\entity.hpp(9): error C2653: 'sf': is not a class or namespace name
+x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\entity.hpp(9): error C2061: syntax error: identifier 'Vector2f'
+x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\entity.hpp(11): error C2653: 'sf': is not a class or namespace name
+x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\entity.hpp(11): error C3646: 'getVelocity': unknown override specifier
+x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\entity.hpp(11): error C2059: syntax error: '('
+x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\entity.hpp(11): error C2238: unexpected token(s) preceding ';'
+x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\entity.hpp(14): error C2653: 'sf': is not a class or namespace name
+x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\entity.hpp(14): error C2061: syntax error: identifier 'Time'
+x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\entity.cpp(3): error C2653: 'sf': is not a class or namespace name
+x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\entity.cpp(3): error C2065: 'Vector2f': undeclared identifier
+x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\entity.cpp(3): error C2146: syntax error: missing ')' before identifier 'velocity'
+x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\entity.cpp(3): error C2143: syntax error: missing ';' before '{'
+x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\entity.cpp(3): error C2447: '{': missing function header (old-style formal list?)
+x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\entity.cpp(7): error C2065: 'mVelocity': undeclared identifier
+x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\entity.cpp(7): error C2653: 'sf': is not a class or namespace name
+x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\entity.cpp(7): error C3861: 'Vector2f': identifier not found
+x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\entity.cpp(9): error C2653: 'sf': is not a class or namespace name
+x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\entity.cpp(9): error C2039: 'getVelocity': is not a member of 'Entity'
+  x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\entity.hpp(4): note: see declaration of 'Entity'
+x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\entity.cpp(9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\entity.cpp(9): error C2146: syntax error: missing ';' before identifier 'getVelocity'
+x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\entity.cpp(9): error C2143: syntax error: missing ';' before '{'
+x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\entity.cpp(9): error C2447: '{': missing function header (old-style formal list?)
+x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\entity.cpp(12): error C2653: 'sf': is not a class or namespace name
+x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\entity.cpp(12): error C2065: 'Time': undeclared identifier
+x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\entity.cpp(12): error C2146: syntax error: missing ')' before identifier 'dt'
+x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\entity.cpp(12): error C2143: syntax error: missing ';' before '{'
+x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\entity.cpp(12): error C2447: '{': missing function header (old-style formal list?)
+  Aircraft.cpp
+x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\entity.hpp(6): error C2653: 'sf': is not a class or namespace name
+x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\entity.hpp(6): error C3646: 'mVelocity': unknown override specifier
+x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\entity.hpp(6): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\entity.hpp(9): error C2653: 'sf': is not a class or namespace name
+x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\entity.hpp(9): error C2061: syntax error: identifier 'Vector2f'
+x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\entity.hpp(11): error C2653: 'sf': is not a class or namespace name
+x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\entity.hpp(11): error C3646: 'getVelocity': unknown override specifier
+x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\entity.hpp(11): error C2059: syntax error: '('
+x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\entity.hpp(11): error C2238: unexpected token(s) preceding ';'
+x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\entity.hpp(14): error C2653: 'sf': is not a class or namespace name
+x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\entity.hpp(14): error C2061: syntax error: identifier 'Time'
+  Generating Code...
+x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\scenenode.cpp(37): error C4716: 'SceneNode::getWorldPosition': must return a value
+x:\users\dkill\documents\visual studio 2017\projects\sfml\gd4classcode\gd4classcode\scenenode.cpp(41): error C4716: 'SceneNode::getWorldTransform': must return a value
