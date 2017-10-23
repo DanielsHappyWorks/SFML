@@ -118,15 +118,18 @@
   <ItemGroup>
     <ClInclude Include="Aircraft.hpp" />
     <ClInclude Include="Entity.hpp" />
+    <ClInclude Include="Game.hpp" />
     <ClInclude Include="ResourceHolder.hpp" />
     <ClInclude Include="ResourceIdentifiers.hpp" />
     <ClInclude Include="SceneNode.hpp" />
     <ClInclude Include="SpriteNode.hpp" />
+    <ClInclude Include="StringHelpers.hpp" />
     <ClInclude Include="World.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Aircraft.cpp" />
     <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="Game.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="SceneNode.cpp" />
     <ClCompile Include="SpriteNode.cpp" />
@@ -134,6 +137,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources.inl" />
+    <None Include="StringHelpers.inl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
